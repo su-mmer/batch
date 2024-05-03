@@ -15,6 +15,6 @@ public class BatchApplication {
 
     @GetMapping(value = "/")
     public String doGetHelloWorld() {
-        return "Hello Batch";
+        return "Hello Batch!";
     }
 }
